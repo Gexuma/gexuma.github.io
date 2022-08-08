@@ -1,0 +1,50 @@
+@media (min-aspect-ratio:10/9) {
+	img {
+		height: 20vw;
+	}
+}
+
+@media (max-aspect-ratio:10/9) {
+	img {
+		height: 100%;
+		width: 80vw;
+	}
+}
+
+span {
+	font-family: "Open Sans", sans-serif;
+	font-weight: 400;
+	color: white;
+}
+
+.card {
+	margin-top: 15px;
+	border-radius: 10px;
+	background-color: #38383d;
+}
+
+.pict {
+	margin: 5px 5px;
+	border-radius: 5px;
+}
+
+.caption {
+	text-align: center;
+	margin: auto;
+	display: block;
+	padding: 10px;
+	padding-top: 0px;
+	font-size: 1em;
+}
+
+.imagebox {
+	display: inline-block;
+	vertical-align: top;
+	padding-left: 10px;
+}
+
+#explan {
+	display: block;
+	padding: 15px;
+	font-size: 1.1em;
+}

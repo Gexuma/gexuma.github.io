@@ -1,0 +1,191 @@
+@media (min-aspect-ratio:10/9) {
+	.row {
+		display: flex;
+	}
+	
+	#inset {
+		display: none;
+	}
+	
+	#top {
+		display: flex;
+	}
+	
+	.card {
+		justify-content: center;
+		background-size: 100vw;
+		margin: 10px;
+	}
+
+	li {
+		display: inline;
+		float: left;
+	}
+	
+	ul {
+		list-style-type: none;
+		margin: 0;
+		padding: 0;
+	}
+	
+	.box li {
+		padding: 0;
+		margin: 0;
+	}
+	
+	.box ul {
+		padding: 0;
+		margin: 0;
+	}
+}
+
+@media (max-aspect-ratio:10/9) {
+	h1 {
+		text-align: center;
+	}
+	
+	.card {
+		background-size: 160vw;
+	}
+	
+	.card li {
+		padding-top: 5px;
+	}
+	
+	.box {
+		margin-top: 15px;
+		border-radius: 10px;
+		background-color: #38383d;
+	}
+	
+	#inset {
+		display: flex;
+	}
+	
+	#top {
+		display: none;
+	}
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	background-color: #2a2a2e;
+}
+
+h1 {
+	font-family: "Open Sans", sans-serif;
+	font-weight: 700;
+	background-color: #38383d;
+	padding: 30px 2vw 10px 1.5vw;
+	margin: 0;
+	font-size: 3em;
+	color: #A0A0AD;
+}
+
+h2 {
+	font-family: "Open Sans", sans-serif;
+	font-weight: 600;
+	font-size: 1.7em;
+	margin: 0;
+	color: #A0A0AD;
+	padding-left: 2vw;
+	text-align: center;
+}
+
+h3 {
+	font-family: "Open Sans", sans-serif;
+	font-weight: 500;
+	font-size: 1.3em;
+	margin: 0;
+	color: #A0A0AD;
+	text-align: left;
+}
+
+p {
+	font-family: 'Source Serif Pro', serif;
+	color: #f9f9fa;
+	font-weight: 300;
+	font-size: 0.9em;
+	padding: 0;
+	margin: 0;
+}
+
+.box ul {
+	list-style-type: none;
+	margin: 0;
+	list-style-type: none;
+	margin: 0;
+	padding: 0px 0px 15px 0px;
+	width: 200px;
+}
+
+a {
+	color: inherit; /* blue colors for links too */
+	text-decoration: inherit; /* no underline */
+}
+
+.web {
+	font-family: "Open Sans", sans-serif;
+	font-weight: 400;
+	color: #f9f9fa;
+	text-align: center;
+	background-color: #38383d;
+	font-size: 1.3em;
+}
+
+.box {
+	border-radius: 10px;
+	padding-top: 15px;
+	justify-content: center;
+}
+
+.box li {
+	display: block;
+	padding: 5px 16px;
+	box-shadow: inset 0 0px 0 white, inset 0 -1px 0 #f9f9fa
+}
+
+.navbar li {
+	padding: 14px 16px;
+}
+
+#home:hover {
+	background: #f9f9fa;
+	color: #38383d;
+}
+
+#slides:hover {
+	background: #f9f9fa;
+	color: #38383d;
+}
+
+#about:hover {
+	background: #f9f9fa;
+	color: #38383d;
+}
+
+#essays:hover {
+	background: #f9f9fa;
+	color: #38383d;
+}
+
+#links:hover {
+	background: #f9f9fa;
+	color: #38383d;
+}
+
+#photoshop:hover {
+	background: #f9f9fa;
+	color: #38383d;
+}
+
+#images:hover {
+	background: #f9f9fa;
+	color: #38383d;
+}
+
+#blog:hover {
+	background: #f9f9fa;
+	color: #38383d;
+}

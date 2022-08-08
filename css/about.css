@@ -1,0 +1,62 @@
+h2 {
+	padding-bottom: 10px;
+	padding-left: 0;
+	text-align: center;
+}
+
+h3 {
+	padding-bottom: 5px;
+	text-align: center;
+}
+
+p {
+	font-family: 'Source Serif Pro', serif;
+	color: #f9f9fa;
+	font-weight: 300;
+	font-size: 1em;
+	padding: 0;
+	margin: 10px;
+	text-align: center;
+}
+
+tr {
+	font-family: 'Source Serif Pro', serif;
+	color: #f9f9fa;
+}
+
+th {
+	border-style: solid;
+	border-width: 0.2em;
+	border-color: #f9f9fa;
+}
+
+table {
+	padding-left: 1em;
+	padding-right: 1em;
+}
+
+span {
+		color: #A0A0AD;
+}
+
+code {
+	font-family: Consolas,"courier new", monospace;
+	color: #F0F0F0;
+	background-color: #2A2A2E;
+	padding: 2px;
+	font-size: 105%;
+}
+
+.content {
+	margin: 2vw;
+}
+
+.box {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	background-color: #38383d;
+	border-radius: 10px;
+	text-align: center;
+}

@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8"/>
+	<title>Image Slideshows</title>
+	<link id="textstyle" rel="stylesheet" href="../css/headings.css">
+	<link rel="stylesheet" href="../css/slides.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet"> 
+</head>
+<body>
+	<h1>SLIDESHOWS</h1>
+	<div class="navbar">
+		<span class="web" id="top">
+			<ul>
+				<a href="../index.html"><li id="home">Home</li></a>
+				<a href="photoshop.html"><li id="photoshop">Awful Photoshopping</li></a>
+				<a href="images.html"><li id="images">Fighting Game Stages</li></a>
+				<a href="blog.html"><li id="blog">Blog</li></a>
+			</ul>
+		</span>
+	</div>
+	<div>
+		<span class="web box" id="inset">
+			<ul>
+				<li><a href="../index.html">Home</a></li>
+				<li><a href="photoshop.html">Awful Photoshopping</a></li>
+				<li><a href="images.html">Fighting Game Stages</a></li>
+				<li><a href="blog.html">Blog</a></li>
+			</ul>
+		</span>
+	</div>
+	<div class="hitman"><img src="../pictures/hitman.png" height="50px"></div>
+	<div class="center">
+		<div class="slideshow-container" id="slideshow1">
+			<div class="slides">
+			<!-- Hitman 1-->
+			<!-- Full-width images with number text -->
+				<div class="mySlides">
+					<div class="numbertext"><span>1 / 6</span></div>
+					<img src="../pictures/Hitman-3.jpg" style="width:100%">
+				</div>
+
+				<div class="mySlides">
+					<div class="numbertext"><span>2 / 6</span></div>
+					<img src="../img_5terre_wide.jpg" style="width:100%">
+				</div>
+
+				<div class="mySlides">
+					<div class="numbertext"><span>3 / 6</span></div>
+					<img src="../img_mountains_wide.jpg" style="width:100%">
+				</div>
+
+				<div class="mySlides">
+					<div class="numbertext"><span>4 / 6</span></div>
+					<img src="../img_lights.jpg" style="width:100%">
+				</div>
+
+				<div class="mySlides">
+					<div class="numbertext"><span>5 / 6</span></div>
+					<img src="../img_nature_wide.jpg" style="width:100%">
+				</div>
+
+				<div class="mySlides">
+					<div class="numbertext"><span>6 / 6</span></div>
+					<img src="../img_snow_wide.jpg" style="width:100%">
+				</div>
+
+				<!-- Next and previous buttons -->
+				<a class="prev" onclick="plusSlides(-1,slideshow1)">&#10094;</a>
+				<a class="next" onclick="plusSlides(1,slideshow1)">&#10095;</a>
+
+				<!-- Image text -->
+				<div class="caption-container">
+					<span id="caption"></span>
+				</div>
+			</div>
+	  <!-- Thumbnail images -->
+			<div class="row">
+				<div class="column">
+					<img class="demo cursor" src="../pictures/Hitman-3.jpg" style="width:100%" alt="The Woods" onclick="currentSlide(1, slideshow1)">
+				</div>
+				<div class="column">
+					<img class="demo cursor" src="../img_5terre.jpg" style="width:100%" alt="Cinque Terre" onclick="currentSlide(2, slideshow1)">
+				</div>
+				<div class="column">
+					<img class="demo cursor" src="../img_mountains.jpg" style="width:100%" alt="Mountains and fjords" onclick="currentSlide(3, slideshow1)">
+				</div>
+				<div class="column">
+					<img class="demo cursor" src="../img_lights.jpg" style="width:100%" alt="Grassy Landscape" onclick="currentSlide(4, slideshow1)">
+				</div>
+				<div class="column">
+					<img class="demo cursor" src="../img_nature.jpg" style="width:100%" alt="Nature and sunrise" onclick="currentSlide(5, slideshow1)">
+				</div>
+				<div class="column">
+					<img class="demo cursor" src="../img_snow.jpg" style="width:100%" alt="Snowy Mountains" onclick="currentSlide(6, slideshow1)">
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="blackmesa"><img src="../pictures/blackmesa.png" height="50px"></div>
+	<div class="center">
+		<div class="slideshow-container" id="slideshow2">
+			<div class="slides">
+			<!-- Hitman 1-->
+			<!-- Full-width images with number text -->
+				<div class="mySlides">
+					<div class="numbertext"><span>1 / 11</span></div>
+					<img src="../screenshots/BlackMesa1.png" style="width:100%">
+				</div>
+
+				<div class="mySlides">
+					<div class="numbertext"><span>2 / 11</span></div>
+					<img src="../screenshots/BlackMesa2.png" style="width:100%">
+				</div>
+
+				<div class="mySlides">
+					<div class="numbertext"><span>3 / 11</span></div>
+					<img src="../screenshots/BlackMesa3.png" style="width:100%">
+				</div>
+
+				<div class="mySlides">
+					<div class="numbertext"><span>4 / 11</span></div>
+					<img src="../screenshots/BlackMesa4.png" style="width:100%">
+				</div>
+
+				<div class="mySlides">
+					<div class="numbertext"><span>5 / 11</span></div>
+					<img src="../screenshots/BlackMesa5.png" style="width:100%">
+				</div>
+
+				<div class="mySlides">
+					<div class="numbertext"><span>6 / 11</span></div>
+					<img src="../screenshots/BlackMesa6.png" style="width:100%">
+				</div>
+				
+				<div class="mySlides">
+					<div class="numbertext"><span>7 / 11</span></div>
+					<img src="../screenshots/BlackMesa7.png" style="width:100%">
+				</div>
+				
+				<div class="mySlides">
+					<div class="numbertext"><span>8 / 11</span></div>
+					<img src="../screenshots/BlackMesa8.png" style="width:100%">
+				</div>
+				
+				<div class="mySlides">
+					<div class="numbertext"><span>9 / 11</span></div>
+					<img src="../screenshots/BlackMesa9.png" style="width:100%">
+				</div>
+
+				<div class="mySlides">
+					<div class="numbertext"><span>10 / 11</span></div>
+					<img src="../screenshots/BlackMesa10.png" style="width:100%">
+				</div>
+				
+				<div class="mySlides">
+					<div class="numbertext"><span>11 / 11</span></div>
+					<img src="../screenshots/BlackMesa11.png" style="width:100%">
+				</div>
+				
+				<!-- Next and previous buttons -->
+				<a class="prev" onclick="plusSlides(-1,slideshow2)">&#10094;</a>
+				<a class="next" onclick="plusSlides(1,slideshow2)">&#10095;</a>
+
+				<!-- Image text -->
+				<div class="caption-container">
+					<span id="caption"></span>
+				</div>
+			</div>
+	  <!-- Thumbnail images -->
+			<div class="row">
+				<div class="column">
+					<img class="demo cursor" src="../screenshots/BlackMesa1.png" style="width:100%" alt="" onclick="currentSlide(1, slideshow2)">
+				</div>
+				<div class="column">
+					<img class="demo cursor" src="../screenshots/BlackMesa2.png" style="width:100%" alt="">
+				</div>
+				<div class="column">
+					<img class="demo cursor" src="../screenshots/BlackMesa3.png" style="width:100%" alt="">
+				</div>
+				<div class="column">
+					<img class="demo cursor" src="../screenshots/BlackMesa4.png" style="width:100%" alt="" onclick="currentSlide(4, slideshow2)">
+				</div>
+				<div class="column">
+					<img class="demo cursor" src="../screenshots/BlackMesa5.png" style="width:100%" alt="Jars..." onclick="currentSlide(5, slideshow2)">
+				</div>
+				<div class="column">
+					<img class="demo cursor" src="../screenshots/BlackMesa6.png" style="width:100%" alt="" onclick="currentSlide(6, slideshow2)">
+				</div>
+				<div class="column">
+					<img class="demo cursor" src="../screenshots/BlackMesa7.png" style="width:100%" alt="" onclick="currentSlide(7, slideshow2)">
+				</div>
+				<div class="column">
+					<img class="demo cursor" src="../screenshots/BlackMesa8.png" style="width:100%" alt="" onclick="currentSlide(8, slideshow2)">
+				</div>
+				<div class="column">
+					<img class="demo cursor" src="../screenshots/BlackMesa9.png" style="width:100%" alt="" onclick="currentSlide(9, slideshow2)">
+				</div>
+				<div class="column">
+					<img class="demo cursor" src="../screenshots/BlackMesa10.png" style="width:100%" alt="" onclick="currentSlide(10, slideshow2)">
+				</div>
+				<div class="column">
+					<img class="demo cursor" src="../screenshots/BlackMesa11.png" style="width:100%" alt="" onclick="currentSlide(11, slideshow2)">
+				</div>
+			</div>
+		</div>
+	</div>
+<script>
+var slideshow1 = document.getElementById("slideshow1");
+slideshow1.currentSlideIndex = 1;
+showSlides(slideshow1.currentSlideIndex, slideshow1);
+
+var slideshow2 = document.getElementById("slideshow2");
+slideshow2.currentSlideIndex = 1;
+showSlides(slideshow2.currentSlideIndex, slideshow2);
+
+function plusSlides(n, slideshow) {
+  showSlides(slideshow.currentSlideIndex += n, slideshow);
+}
+
+function currentSlide(n, slideshow) {
+  showSlides(slideshow.currentSlideIndex = n, slideshow);
+}
+
+function showSlides(n, slideshow) {
+  var i;
+  var slides = slideshow.getElementsByClassName("mySlides");
+  var dots = slideshow.getElementsByClassName("demo");
+  if (n > slides.length) {slideshow.currentSlideIndex = 1}    
+  if (n < 1) {slideshow.currentSlideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideshow.currentSlideIndex-1].style.display = "block";  
+  dots[slideshow.currentSlideIndex-1].className += " active";
+  $(slideshow).find('#caption').html(dots[slideshow.currentSlideIndex-1].alt);
+}
+</script>
+</body>
