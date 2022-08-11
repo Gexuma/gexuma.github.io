@@ -29,6 +29,18 @@ code {
 	font-size: 105%;
 }
 
+.zelda {
+	font-family: "Open Sans", sans-serif;
+	font-weight: 400;
+	font-size: 1em;
+	color: #A0A0AD;
+}
+
+.zelda a {
+	padding: 5px;
+	text-decoration: underline;
+}
+
 .content {
 	margin: 2vw;
 }
