@@ -4,15 +4,36 @@
 		height: 60vh;
 	}
 	
+	.icon {
+		height: 25px;
+	}
+	
+	.web {
+		font-size: 1em;
+	}
+	
 	body {
 		background-size: 100vw;
 	}
+	
 }
 
 @media (max-aspect-ratio:10/9) {
 	.profile {
 		width: 70vw;
 		height: 80vh;
+	}
+	
+	.smcap {
+		display: none;
+	}
+	
+	.icon {
+		height: 2.5em;
+	}
+	
+	.web {
+		font-size: 2em;
 	}
 	
 	body {
@@ -66,7 +87,6 @@ li {
 }
 
 .icon {
-	height: 25px;
 	display: block;
 	float: left;
 	padding: 0px 5px 0px 12px;
