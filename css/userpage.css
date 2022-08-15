@@ -4,6 +4,10 @@
 		height: 60vh;
 	}
 	
+	.pfp {
+		margin: 10px;
+	}
+	
 	.icon {
 		height: 25px;
 	}
@@ -25,6 +29,13 @@
 	.profile {
 		width: 70vw;
 		height: 60vh;
+	}
+	
+	.pfp {
+		margin-top: 3em;
+		margin-left: 10px;
+		margin-right: 10px;
+		margin-bottom: 10px;
 	}
 	
 	.smcap {
@@ -87,7 +98,6 @@ li {
 .pfp {
 	border-radius: 50%;
 	height: 20vh;
-	margin: 10px;
 	padding: 5px;
 	border: 2px solid #fee9a5;
 }
