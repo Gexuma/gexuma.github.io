@@ -16,12 +16,15 @@
 		background-size: 100vw;
 	}
 	
+	ul {
+		width: 200px;
+	}
 }
 
 @media (max-aspect-ratio:10/9) {
 	.profile {
 		width: 70vw;
-		height: 80vh;
+		height: 60vh;
 	}
 	
 	.smcap {
@@ -29,15 +32,19 @@
 	}
 	
 	.icon {
-		height: 2.5em;
+		height: 100px;
 	}
 	
 	.web {
-		font-size: 2em;
+		font-size: 40px;
 	}
 	
 	body {
 		background-size: 100vh;
+	}
+	
+	ul {
+		width: 60%;
 	}
 }
 
@@ -69,7 +76,6 @@ ul {
 	list-style-type: none;
 	margin: 0;
 	padding: 0px 0px 10px 0px;
-	width: 200px;
 }
 
 li {
