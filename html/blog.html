@@ -10,24 +10,13 @@
 </head>
 <body>
 	<h1>BLOG</h1>
-	<div class="navbar">
-		<span class="web" id="top">
-			<ul>
-				<a href="../index.html"><li id="home">Home</li></a>
-				<a href="about.html"><li id="about">About Me</li></a>
-				<a href="essays.html"><li id="essays">Essays</li></a>
-				<a href="linkdump.html"><li id="links">Lucky Link Lottery</li></a>
-			</ul>
-		</span>
-	</div>
 	<div>
-		<span class="web box" id="inset">
-			<ul>
-				<li><a href="../index.html">Home</a></li>
-				<li><a href="about.html">About Me</a></li>
-				<li><a href="essays.html">Essays</a></li>
-				<li><a href="linkdump.html">Lucky Link Lottery</a></li>
-			</ul>
+		<span class="navbar">
+			<a href="../index.html" id="home">Home</a>
+			<a href="about.html" id="about">About Me</a>
+			<a href="essays.html" id="essays">Essays</a>
+			<a href="blog.html" id="blog">Blog</a>
+			<a href="linkdump.html" id="links">Lucky Link Lottery</a>
 		</span>
 	</div>
 	<div class="row">
@@ -48,7 +37,7 @@
 			<div class="card">
 				<div class="text">
 					<h2>Which Pokemon I would eat</h2>
-					<span>
+					<p>
 					Everyone knows some pokemon are edible, but how far are you willing to go? Today I will answer that crucial question with the ground-breaking, never before seen blog post "Which Pokemon I would eat."<br>
 					<table>
 						<tr>
@@ -61,7 +50,7 @@
 							<td></td><td></td><td></td><td></td>
 						</tr>
 					</table>
-					</span>
+					</p>
 					<div class="metadata">
 						<p>Posted: </p>
 						<p>Last updated: </p>
@@ -71,10 +60,10 @@
 			<div class="card">
 				<div class="text">
 					<h2>First fan edit playlist finished!</h2>
-					<span>
+					<p>
 					All of Grayfruit's Dark Souls spellcaster streams have now been edited down into videos by yours truly. Check them out here:</br></br>
 					<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/videoseries?list=PLP-_EtbaawCUYao0Sh2PH6QiGpm6VZ5ZR" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-					</span>
+					</p>
 					<div class="metadata">
 						<p>Posted: Thursday, 5 August 2021 at 1:12pm</p>
 						<p>Last updated: Thursday, 5 August 2021 at 1:12pm</p>
@@ -84,9 +73,9 @@
 			<div class="card">
 				<div class="text">
 					<h2>Janky methods of centre alignment</h2>
-					<span>
+					<p>
 					Why is there no easy way (it seems) to neatly do centre alignment? I used the recommended <code>position: absolute; left: 50%; top: 50%; transform: translate(-50%, -50%);</code> for aligning the card on the main page, but this of course doesn't work as well for anything not directly within the body. That led to an awful feeling flexbox method for putting everything else in the centre, which I really don't like. Any other method either didn't work or was even jankier. Please, if you know of a better method than the mess I've done, I'd love to know.
-					</span>
+					</p>
 					<div class="metadata">
 						<p>Posted: Monday, 31 May 2021 at 9:03am</p>
 						<p>Last updated: Monday, 31 May 2021 at 9:03am</p>
@@ -96,9 +85,9 @@
 			<div class="card">
 				<div class="text">
 					<h2>The awfulness of slideshows</h2>
-					<span>
+					<p>
 					Getting the slideshow on the Image Slideshows page to work was a nightmare. I'm not very experienced with JavaScript, but I was aware that it'd be the only reasonable way to make a slideshow work without reloading the page every time the user clicked on one of the arrows or previews. Sadly, being inexperienced with JavaScript led to this being really difficult to figure out. First, I attempted to just use <a href="https://www.w3schools.com/howto/howto_js_slideshow_gallery.asp">this W3Schools slideshow</a> setup, which you can still see in the CSS for the slideshow, but this didn't go well. Adding a second slideshow would do one of three things, depending on what I tried. Either one slideshow would collapse mysteriously, or clicking on the bottom slideshow would manipulate the top slideshow, or one slideshow would bleed into the other. The bleeding happened because clicking the right arrow too much incremented the same counter used by the second slideshow, and the images of that slideshow would begin showing up. Eventually I found another solution for the slideshow idea but this didn't work for captions. After even more research, I gave up on doing it in regular JavaScript and just used JQuery. Because of this, the entire JQuery library is loaded for one single line of code...
-					</span>
+					</p>
 					<div class="metadata">
 						<p>Posted: Thursday, 27 May 2021 at 4:29pm</p>
 						<p>Last updated: Thursday, 27 May 2021 at 4:29pm</p>

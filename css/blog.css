@@ -8,19 +8,6 @@ h2 {
 	padding-bottom: 10px;
 }
 
-span {
-	font-family: 'Source Serif Pro', serif;
-	color: #f9f9fa;
-}
-
-code {
-	font-family: Consolas,"courier new", monospace;
-	color: #F0F0F0;
-	background-color: #2A2A2E;
-	padding: 2px;
-	font-size: 105%;
-}
-
 .card {
 	margin-top: 15px;
 	border-radius: 10px;
