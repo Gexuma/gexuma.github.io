@@ -1,62 +1,72 @@
-h2 {
-	padding-bottom: 10px;
-	padding-left: 0;
-	text-align: center;
+@media (max-aspect-ratio:10/9) {
+	table {
+		font-size: 1.5em;
+	}
 }
 
-h3 {
-	padding-bottom: 5px;
-	text-align: center;
-}
-
-p {
-	font-family: 'Source Serif Pro', serif;
-	color: #f9f9fa;
-	font-weight: 300;
-	font-size: 1em;
-	padding: 0;
-	margin: 10px;
-	text-align: center;
-}
-
-tr {
-	font-family: 'Source Serif Pro', serif;
-	color: #f9f9fa;
-}
-
-th {
+.info {
 	border-style: solid;
-	border-width: 0.2em;
+	border-width: 3px;
 	border-color: #f9f9fa;
+	padding: 0.8em;
+	font-family: 'Open Sans', sans-serif;
+	text-align: left;
+	color: #f9f9fa;
 }
 
-table {
-	padding-left: 1em;
-	padding-right: 1em;
+.info th:nth-child(even) {
+	font-weight: 400;
 }
 
-span {
-		color: #A0A0AD;
+.info th:nth-child(odd) {
+	font-weight: 700;
+	padding-right: 13px;
 }
 
-code {
-	font-family: Consolas,"courier new", monospace;
-	color: #F0F0F0;
-	background-color: #2A2A2E;
-	padding: 2px;
-	font-size: 105%;
+.userboxes {
+	font-family: 'Open Sans', sans-serif;
+	padding-top: 10px;
 }
 
-.content {
-	margin: 2vw;
+.wikibox {
+	border: 1px solid;
+	margin:1px;
+	width:238px
 }
 
-.box {
-	position: absolute;
-	left: 50%;
-	top: 50%;
-	transform: translate(-50%, -50%);
-	background-color: #38383d;
-	border-radius: 10px;
-	text-align: center;
+.wikibox table {
+	border-collapse:collapse;
+	width:238px;
+}
+
+.wikibox table td:first-child{
+	width:45px;
+	height:45px;
+	text-align:center;
+	padding:0 1px 0 0;
+	font-weight:bold;
+}
+
+.wikibox table td:nth-of-type(2){
+	padding:0 4px 0 4px;
+	height:45px;
+	font-size:8pt;
+}
+
+.bd {
+	font-weight: 600;
+}
+
+.it {
+	font-style: italic;
+}
+
+#flag {
+	padding-right: 4px;
+}
+
+#hbox {
+	color: #f9f9fa;
+	font-weight:600;
+	font-size: 1.3em;
 }
