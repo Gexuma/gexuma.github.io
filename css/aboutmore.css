@@ -1,0 +1,44 @@
+@font-face {
+	font-family: GlassAntiqua;
+	src: url(../fonts/GlassAntiqua-Regular.ttf);
+}
+
+body {
+	text-align: center;
+	background-image: url("../images/hearts.gif");
+	margin: 0;
+}
+
+h1 {
+	font-family: Cooper;
+}
+
+h3 {
+	font-family: GlassAntiqua;
+}
+
+table {
+	display: flex;
+	justify-content: center;
+	margin: 15px;
+}
+
+td {
+	background-color: #fff4;
+	font-family: Georgia;
+	padding: 10px;
+	border: 2px;
+	border-style: dotted;
+	border-color: red;
+}
+
+hr {
+	border: 0;
+	height:28px;
+	background-image: url("../images/stars.png");
+}
+
+#banner {
+	background-image: url("../images/clouds.png");
+	padding: 1px;
+}

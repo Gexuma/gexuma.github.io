@@ -2,61 +2,18 @@
 <html>
 <head>
 	<meta charset="utf-8"/>
-	<title>User:Gexuma</title>
+	<title>Gexuma.net</title>
 	<!--[if IE]><link rel="shortcut icon" href="favicon.ico"><![endif]-->
 	<link rel="apple-touch-icon" href="apple-touch-icon.png">
 	<link rel="icon" type="image/png" href="favicon.png">
-	<link id="pagestyle" rel="stylesheet" href="css/userpage.css">
-	<link rel="preconnect" href="https://fonts.gstatic.com">
-	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet"> 
+	<link id="webstyle" rel="stylesheet" href="index.css">
+	<link id="pagestyle" rel="stylesheet" href="css/main.css">
 </head>
 <body>
-	<div class="profile">
-		<div class="flex">
-			<img src="pictures/pfp.jpg" alt="Gexuma's profile picture" class="pfp" id="pfp" onclick="boo()">
-		</div>
-		<div class="sm">
-			<a href="https://www.youtube.com/c/gexuma">
-				<img src="icons/youtube.png" class="icon">
-				<span class="smcap">YouTube</span>
-			</a>
-			<a href="https://www.twitch.tv/gexuma">
-				<img src="icons/twitch.png" class="icon">
-				<span class="smcap">Twitch</span>
-			</a>
-			<a href="https://twitter.com/Gexuma1/">
-				<img src="icons/twitter.png" class="icon">
-				<span class="smcap">Twitter</span>
-			</a>
-			<a href="https://discordapp.com/users/360919379933921282/">
-				<img src="icons/discord.png" class="icon">
-				<span class="smcap">Discord</span>
-			</a>
-		</div>
-		<span class="web">
-			<ul>
-				<a href="about"><li class="mouse">About Me</li></a>
-				<a href="essays"><li class="mouse">Essays</li></a>
-				<a href="blog"><li class="mouse">Blog</li></a>
-				<a href="misc"><li class="mouse">Miscellany</li></a>
-			</ul>
-		</span>
-	</div>
-	<script>
-function swapStyleSheet(sheet) {
-    document.getElementById("pagestyle").setAttribute("href", sheet);  
-}
-
-function boo() {
-	swapStyleSheet("css/trans.css");
-	document.getElementById("pfp").setAttribute("onclick", "bye()");
-	document.getElementById("pfp").setAttribute("src", "pictures/tra.png");
-}
-
-function bye() {
-	swapStyleSheet("css/userpage.css");
-	document.getElementById("pfp").setAttribute("onclick", "boo()");
-	document.getElementById("pfp").setAttribute("src", "pictures/pfp.jpg");
-}
-	</script>
+	<h1><a href="gexuma" class="unline">Gexuma</a></h1>
+	<h2><a href="about" class="unline">About the site</a></h2>
+	<h2><a href="things" class="unline">Things I've made</a></h2>
+	<h2><a href="reviews" class="unline">Reviews</a></h2>
+	<h2><a href="sites" class="unline">Other sites I like</a></h2>
+	<h2><a href="contact" class="unline">Contact me</a></h2>
 </body>
