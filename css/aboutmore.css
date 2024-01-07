@@ -62,3 +62,9 @@ hr {
 	background-image: url("../images/clouds.png");
 	padding: 1px;
 }
+
+@media only screen and (orientation: portrait) {
+	.outer {
+		display: none;
+	}
+}
