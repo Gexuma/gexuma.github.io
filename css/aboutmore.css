@@ -3,6 +3,11 @@
 	src: url(../fonts/GlassAntiqua-Regular.ttf);
 }
 
+@font-face {
+	font-family: Prata;
+	src: url(../fonts/Prata-Regular.ttf);
+}
+
 body {
 	text-align: center;
 	background-image: url("../images/hearts.gif");
@@ -15,6 +20,10 @@ h1 {
 
 h3 {
 	font-family: GlassAntiqua;
+}
+
+p {
+	font-family: Georgia;
 }
 
 table {
@@ -61,6 +70,29 @@ hr {
 #banner {
 	background-image: url("../images/clouds.png");
 	padding: 1px;
+}
+
+#sources {
+	font-family: Prata;
+}
+
+#imageflex {
+	display: flex;
+	justify-content: center;
+	align-items: flex-end;
+}
+
+#imageflex img {
+	width: 70%;
+}
+
+#images {
+	border-style: ridge;
+	border-color: HotPink;
+	border-width: 5px;
+	background-color: #FF69B4C0;
+	padding: 10px 20px 10px 20px;
+	margin: 10px;
 }
 
 @media only screen and (orientation: portrait) {
