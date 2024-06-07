@@ -67,6 +67,32 @@ hr {
 	flex-shrink: 0;
 }
 
+.gin {
+	-moz-transform:translateX(270%);
+	-webkit-transform:translateX(270%);	
+	transform:translateX(270%);
+	-moz-animation: gin 15s linear infinite;
+	-webkit-animation: gin 15s linear infinite;
+	animation: gin 15s linear infinite;
+}
+
+@-moz-keyframes gin {
+	0%   { -moz-transform: translateX(270%); }
+	100% { -moz-transform: translateX(-100%); }
+}
+@-webkit-keyframes gin {
+	0%   { -webkit-transform: translateX(270%); }
+	100% { -webkit-transform: translateX(-100%); }
+}
+@keyframes gin {
+	0%   { 
+	transform: translateX(270%); 		
+}
+100% { 
+	transform: translateX(-100%); 
+	}
+}
+
 #banner {
 	background-image: url("../images/clouds.png");
 	padding: 1px;
